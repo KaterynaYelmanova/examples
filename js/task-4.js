@@ -8,4 +8,7 @@ function onControlsClick(e) {
   const { position } = e.target.dataset;
   wrapper.style.backgroundPosition = position;
   label.textContent = position;
+  const { size } = e.target.dataset;
+  wrapper.style.backgroundSize = size;
+  label.textContent = size;
 }

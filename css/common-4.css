@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --wrapper-width: 580px;
+  --add-to-content: 50px;
+}
+
+body {
+  background-color: #fff;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+.wrapper {
+  width: var(--wrapper-width);
+  height: var(--wrapper-width);
+  line-height: var(--wrapper-width);
+  margin: auto;
+  background: #fff url("https://image.ibb.co/mjdbZ5/bg5.jpg") no-repeat center;
+  border: 2px dashed #2a2a2a;
+  border-radius: 4px;
+  box-shadow: none;
+}
+
+.controls {
+  width: var(--wrapper-width);
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+button {
+  margin-left: 4px;
+  margin-right: 4px;
+  font-size: 20px;
+  padding: 8px 30px;
+  background-color: #3f51b5;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),
+    0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+}
+
+button:hover {
+  transform: scale(1.03);
+}
+
+.label {
+  color: #fff;
+  font-size: 60px;
+  text-align: center;
+  text-transform: uppercase;
+}

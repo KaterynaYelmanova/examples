@@ -68,6 +68,9 @@ body {
   transform: rotate(120deg);
 }
 .box4 {
+  font-size: 40px;
+  text-align: center;
+  text-shadow: 2px 2px 4px gray;
   width: 200px;
   height: 200px;
   border-radius: 10px;
@@ -76,7 +79,7 @@ body {
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 
   /*  Set transition values  */
-  transition-property: background-color, transform;
+  transition-property: color, background-color, transform;
   transition-duration: 800ms;
   transition-timing-function: linear;
   transition-delay: 0;
@@ -85,5 +88,6 @@ body {
 /* On hover, change the values of animated properties */
 .box4:hover {
   background-color: rgb(1, 7, 10);
+  color: #f9f9fd;
   transform: rotate(360deg);
 }

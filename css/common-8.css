@@ -14,7 +14,9 @@ p {
   margin-top: 0;
   margin-bottom: 0;
 }
-
+a {
+  text-decoration: none;
+}
 .container {
   width: 600px;
   margin-left: auto;
@@ -32,9 +34,20 @@ p {
   column-gap: 16px;
 }
 .social-list-link {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 50px;
   height: 50px;
   border-radius: 50%;
   background-color: #ffffff;
+  fill: chocolate;
+}
+.social-list-link:hover,
+.social-list-link:focus {
+  fill: rgb(142, 19, 85);
+}
+.social-list-icon {
+  width: 32px;
+  height: 32px;
 }
